@@ -1,16 +1,28 @@
 <!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
 <html>
     <head>
-        <title>My Portfolio</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>About Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="Stylesheet.css">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="Stylesheet.css">
     </head>
-    <body class="index">
+    <body class="aboutme">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            
+           AOS.init({duration: 1000,})
+        </script>
         <header class="header-index">
             <nav class="navbar navbar-expand-lg navbar-light bg-dark" data-bs-theme="dark">
                 <div class="container">
@@ -37,17 +49,100 @@
             </nav>
         </header>
         <div class="content">
-            <div class="content-index">
-                <h1 class="index-intro" style="color: #FFFFFF;font-family: 'Nova Square', sans-serif;font-size: 87px;">Hello, I'm Abdul Mutakabbir<br>
-                <span id="typed-strings">
-                <span>An Aspiring Software Engineer</span>
-                <span>A Full-time Student at Unisza</span>
-                <span>And a Normal Human Being</span>
-                </span>
-            <span id="typed"></span>
-            </h1>
+            <div class="content-aboutme">
+                
+                <div class="aboutme-section motto" data-aos="fade-up">
+                    <h1 class="motto">“Be the better version of your yesterday”</h1><br>
+                </div><!--motto-->
+                
+                <div class="aboutme-section intro" data-aos="zoom-in">
+                    <div class="frame">
+                        <img src="Assets/formla pic.jpg" alt="">
+                    </div>
+                    <div class="aboutme-section intro text-intro">
+                    <p>My name is ABDUL MUTAKABBIR BIN ANUAR an aspiring software engineer with eagerness to learn and expand further. 
+                        This small space of mine shall be a window for you to have a glimpse of who am i. 
+                        I have knowledge regarding multiple coding language such as Javascript, HTML and MySQL. 
+                        Feel free to browse my portfolio and learn more about me.</p>
+                    </div>
+                </div><!-- intro -->
+                
+                <div class="tittle" data-aos="fade-down">
+                   <h3>My Education</h3> 
+                </div>
+                
+                <div class="aboutme-section education">
+                    <div class="secondarylevel" data-aos="fade-down">
+                        <div class="edulevel" data-aos="flip-up">Secondary School</div>
+                        <div class="eduinfo" data-aos="fade-down">
+                            <ul>
+                                <li>SM Sains Bagan Datoh</li>
+                                <li>2016 - 2020</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="Foundationlevel" data-aos="fade-down">
+                        <div class="edulevel" data-aos="flip-up">Foundation</div>
+                        <div class="eduinfo" data-aos="fade-down">
+                            <ul>
+                                <li>Kolej Matrikulasi Perak</li>
+                                <li>2021 - 2022</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="BachelorDegree" data-aos="fade-down">
+                        <div class="edulevel" data-aos="flip-up">Bachelor Degree</div>
+                        <div class="eduinfo" data-aos="fade-down">
+                            <ul>
+                                <li>Universiti Sultan Zainal Abidin</li>
+                                <li>2022 - Now</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- education -->
+                
+                <div class="aboutme-section persona" data-aos="fade-down">
+                    <div class="persona-icon">
+                        <img src="Assets/persona(4).png" alt="">
+                    </div>
+                    <div class="persona-text">
+                    <p>I believe myself to be a realistic person who approach every situation I face with practical reasoning that is grounded to reality. 
+                        I base my decisions on practicality and a realistic assessment of situations.  
+                        I would make a decision that ensure both practicality and effectiveness of my choice in order to achieve the goal.</p>
+                    </div>
+                </div><!-- personality -->
+                    
+                <div class="aboutme-section leadership">
+                    <div class="leadership-text" data-aos="fade-right">
+                    <p>I'm open to leadership roles, acknowledging that I may not always be the foremost expert. 
+                        I embrace leading by utilizing my communication skills and collaborative approach to inspire others towards achieving a common goal.</p>
+                    </div>
+                    <div class="leadership-icon" data-aos="fade-right">
+                        <img src="Assets/leadership(1).png" alt="">
+                    </div>
+                </div><!-- leadership -->
+                
+                <div class="aboutme-section teamplayer">
+                    <div class="teamplayer-text" data-aos="fade-left">
+                    <p>I'm comfortable both collaborating within a team and working independently. 
+                        I thrive in group settings, contributing my ideas while also excelling when working autonomously.</p>
+                    </div>
+                    <div class="teamplayer-icon" data-aos="fade-left">
+                        <img src="Assets/team(1).png" alt="">
+                    </div>
+                </div><!--team player-->
+                
             </div>
         </div>
+        <footer>
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>Follow me on social media</p>
+        </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
